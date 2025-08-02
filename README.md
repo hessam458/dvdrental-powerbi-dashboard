@@ -58,5 +58,5 @@ dvdrental.pbix — the full Power BI dashboard file
 # Dashboard Preview
 ![Overview page](Overview.png)
 ![Customer page](Customer.png)
-![Film page](film.png)
+![Film page](Film.png)
 

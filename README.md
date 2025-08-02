@@ -9,23 +9,23 @@ This Power BI dashboard was built using the DVDRental sample database to provide
 
 # 📌 Key Features
 . KPI Cards: Total revenue, number of rentals, active customers, and average payment amount.
-# Bar Charts:
+## Bar Charts:
 . Top 10 cities by revenue.
 . Revenue by film category.
-# Line/Area Chart:
+## Line/Area Chart:
 . Monthly revenue trend to track performance over time.
-# Pie/Donut Charts:
+## Pie/Donut Charts:
 . Revenue distribution by store or customer location.
-# Tables and Tooltips:
+## Tables and Tooltips:
 . Detailed transaction tables with drill-through capability.
 
 # 🔐 Row-Level Security (RLS)
 This dashboard includes Row-Level Security (RLS) to restrict data access based on user roles. RLS ensures that each user can only see the data they are authorized to access — for example, data filtered by store, city, or customer.
-# 📌 Implementation Details:
+## 📌 Implementation Details:
 . A role (e.g., StoreManager) was created using DAX filters.
 . The filter is applied to the relevant table(s), such as store, customer, or rental, to limit visibility.
 . When a user is assigned to a specific role, Power BI dynamically filters the data based on the defined rules.
-# 🧪 Example Use Case:
+## 🧪 Example Use Case:
 A manager from Store 1 can only view rental and sales data related to their store and customers. They won’t see data from other stores.
 This setup improves data security, compliance, and provides a personalized user experience within the same report. 
 

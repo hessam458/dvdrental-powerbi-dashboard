@@ -54,3 +54,9 @@ Data was pre-cleaned and loaded into Power BI using Power Query.
 
 # 📁 File
 dvdrental.pbix — the full Power BI dashboard file
+
+# Dashboard Preview
+![Overview page](Overview.png)
+![Customer page](Customer.png)
+![Film page](film.png)
+
